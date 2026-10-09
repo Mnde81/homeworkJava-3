@@ -9,7 +9,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Iveskite auksti: ");
         int height= in.nextInt();
-        System.out.println("Insert ploti: ");
+        System.out.println("Iveskite ploti: ");
         int width= in.nextInt();
 
         if (height < 2 || width < 2) {
